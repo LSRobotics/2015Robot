@@ -5,6 +5,7 @@ FIRST Robotics Team 5181's code for the 2015Robot
 
 This is an Iterative robot; The methods listed in Robot.java are called several times a second, so there is no need for a loop
 
+
 To start working on this project:
 	1. Install Eclipse + FIRST extensions (See Useful Links)
 	2. Install eGit
@@ -16,8 +17,12 @@ To start working on this project:
 		a. In Eclipse, go to the Window tab in the toolbar, ->Open Perspective->Other, and hit Java Browsing
 		b. In Java Browsing, right click on the Projects pane and hit import
 		c. Git->Projects From Git->Next-> Clone URI
-		d. Take the URL from the Right that says "HTTPS Clone URL"
-	3. 
+		d. Take the URL from the Right that says "HTTPS Clone URL", paste it into URI box; Put 443 as port
+		e. Enter your Git username and password
+		f. Continue hitting next until you get the option to "Import using New Project Wizard"
+		g. Hit Finish
+	3. Learn Git using https://try.github.io
+		-Eclipse does not use the command line, but the concepts are the same
 
 Useful Links
 ============
