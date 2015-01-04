@@ -17,6 +17,7 @@ To start working on this project:
 		<li>Check Eclipse Team Git Provider, hit next, next, I agree, finish</li>
 	</ul>
 <li>3. Clone this repository</li>
+	<br/>
 	<ul>
 		<li>In Eclipse, go to the Window tab in the toolbar, ->Open Perspective->Other, and hit Java Browsing</li>
 		<li>In Java Browsing, right click on the Projects pane and hit import</li>
