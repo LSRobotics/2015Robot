@@ -17,7 +17,7 @@ To start working on this project:
 		<li>Check Eclipse Team Git Provider, hit next, next, I agree, finish</li>
 	</ul>
 
-<li>Clone this repository</li>
+<li>3. Clone this repository</li>
 	<ul>
 		<li>In Eclipse, go to the Window tab in the toolbar, ->Open Perspective->Other, and hit Java Browsing</li>
 		<li>In Java Browsing, right click on the Projects pane and hit import</li>
@@ -28,9 +28,7 @@ To start working on this project:
 		<li>Hit Finish</li>
 	</ul>
 	
-<li>Learn Git https://try.github.io</li>
-<br/>
-https://try.github.io
+<li>4. Learn Git https://try.github.io</li>
 </ol>
 
 
