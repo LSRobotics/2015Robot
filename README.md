@@ -8,8 +8,8 @@ This is an Iterative robot; The methods listed in Robot.java are called several 
 To start working on this project:
 <ol>
 <li>Install Eclipse + FIRST extensions (See Useful Links)</li>
+<br/>
 <li>Install eGit</li>
-	
 	<ul>
 		<li>In Eclipse, Go to: Top Tool bar->Help->Install New Software...</li>
 		<li>Add http://download.eclipse.org/egit/updates to the Work with... bar and hit Add</li>
