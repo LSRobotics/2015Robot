@@ -22,7 +22,7 @@ To start working on this project:
 		<li>In Eclipse, go to the Window tab in the toolbar, ->Open Perspective->Other, and hit Java Browsing</li>
 		<li>In Java Browsing, right click on the Projects pane and hit import</li>
 		<li>Git->Projects From Git->Next-> Clone URI</li>
-		<li>Take the URL from the Right that says "HTTPS Clone URL", paste it into URI box; Put 443 as port</li>
+		<li>Take the URL on the right side of this page that says "HTTPS Clone URL", paste it into URI box; Put 443 as port</li>
 		<li>Enter your Git username and password</li>
 		<li>Continue hitting next until you get the option to "Import using New Project Wizard"</li>
 		<li>Hit Finish</li>
