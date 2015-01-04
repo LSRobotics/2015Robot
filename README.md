@@ -16,7 +16,6 @@ To start working on this project:
 		<li>Type EGit as the name for the window that appears</li>
 		<li>Check Eclipse Team Git Provider, hit next, next, I agree, finish</li>
 	</ul>
-
 <li>3. Clone this repository</li>
 	<ul>
 		<li>In Eclipse, go to the Window tab in the toolbar, ->Open Perspective->Other, and hit Java Browsing</li>
@@ -27,10 +26,8 @@ To start working on this project:
 		<li>Continue hitting next until you get the option to "Import using New Project Wizard"</li>
 		<li>Hit Finish</li>
 	</ul>
-	
 <li>4. Learn Git https://try.github.io</li>
 </ol>
-
 
 Useful Links
 ============
