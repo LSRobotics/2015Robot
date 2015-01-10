@@ -10,11 +10,8 @@ import edu.wpi.first.wpilibj.IterativeRobot;
  * creating this project, you must also update the manifest file in the resource
  * directory.
  */
-
- 
 public class Robot extends IterativeRobot {
-
-	/**
+    /**
      * This function is run when the robot is first started up and should be
      * used for any initialization code.
      */
@@ -33,16 +30,14 @@ public class Robot extends IterativeRobot {
      * This function is called periodically during operator control
      */
     public void teleopPeriodic() {
-
+        
     }
-
+    
     /**
      * This function is called periodically during test mode
      */
     public void testPeriodic() {
-
+    
     }
-
-
-
+    
 }
