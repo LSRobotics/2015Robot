@@ -27,7 +27,6 @@ public interface StaticVars {
 	public static int RIGHT_Trigger = 3;
 	public static int RIGHT_Stick_X = 4;
 	public static int RIGHT_Stick_Y = 5;
-	
-	
+
 	
 }
