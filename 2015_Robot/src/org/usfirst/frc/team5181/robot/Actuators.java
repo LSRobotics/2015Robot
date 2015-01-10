@@ -6,16 +6,16 @@ import edu.wpi.first.wpilibj.Victor;
 public class Actuators {
 	
 	private final Talon frontLeft;
-	private final int FLPort = 1;
+	
 	
 	private final Talon rearLeft;
-	private final int RLPort = 2;
+	
 	
 	private final Talon frontRight;
-	private final int FRPort = 3;
+	
 	
 	private final Victor rearRight;
-	private final int RRPort = 4;
+	
 
 	
 	public Actuators(){
