@@ -1,9 +1,8 @@
 package org.usfirst.frc.team5181.robot;
 
-import edu.wpi.first.wpilibj.Talon;
 import edu.wpi.first.wpilibj.Victor;
 
-public class Actuators {
+public class Actuators implements StaticVars {
 	
 	public final Victor frontLeft;
 	public final Victor rearLeft;
@@ -11,9 +10,9 @@ public class Actuators {
 	public final Victor rearRight;
 	
 	public Actuators() {
-		 frontLeft = new Talon(FLPort); 
-		 rearLeft = new Talon(RLPort); 
-		 frontRight = new Talon(FRPort); 
+		 frontLeft = new Victor(FLPort); 
+		 rearLeft = new Victor(RLPort); 
+		 frontRight = new Victor(FRPort); 
 		 rearRight = new Victor(RRPort); 
 	}
 	
@@ -21,16 +20,12 @@ public class Actuators {
 		switch (choice){
 			case 1:
 				return frontLeft;
-				break;
 			case 2:
 				return rearLeft;
-				break;
 			case 3:
 				return frontRight;
-				break;
 			case 4:
 				return rearRight;
-				break;
 			default:
 				return null;
 		}

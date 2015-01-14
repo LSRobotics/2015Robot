@@ -1,7 +1,7 @@
 package org.usfirst.frc.team5181.robot;
 
 import edu.wpi.first.wpilibj.RobotDrive;
-import edu.wpi.first.wpilibj.networktables.NetworkTable;
+
 
 public class DriveTrain implements StaticVars {
 	
@@ -17,7 +17,13 @@ public class DriveTrain implements StaticVars {
 							actuators.getWheel(RRPort));
 	}
 	
-	public tankDrive(double leftValue, double rightValue){
+	public void tankDrive(double leftValue, double rightValue){
 		rd.tankDrive(leftValue, rightValue, true);
 	}
+	
+	public void mecanmDrive(double magnitude, double direction, double rotation){
+		rd.mecanumDrive_Polar(magnitude, direction, rotation);
+		//rd.mec
+	}
 }
+

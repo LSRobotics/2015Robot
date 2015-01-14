@@ -8,7 +8,7 @@ public interface StaticVars {
 	public static int FRPort = 3;
 	public static int RRPort = 4;
 	
-	public static int JOYSTICK_PORT = 1;
+	public static int JOYSTICK_PORT = 0;
 
 	
 }

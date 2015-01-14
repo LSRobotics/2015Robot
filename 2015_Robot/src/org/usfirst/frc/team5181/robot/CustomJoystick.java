@@ -1,8 +1,6 @@
 package org.usfirst.frc.team5181.robot;
 
-import edu.wpi.edu.wpi.first
-
-public class CustomJoystick extends JoyStick implements StaticVars{
+public class CustomJoystick implements StaticVars{
 	//Gamepad
 	public static int A_Button = 1;
 	public static int B_Button = 2;
