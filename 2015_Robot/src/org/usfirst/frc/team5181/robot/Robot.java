@@ -55,22 +55,19 @@ public class Robot extends IterativeRobot {
 
     /**
      * This function is called periodically during operator control
+     * 
+     * left side of the robot controlled by right analog stick
+     * right side controlled by left analog stick
      */
     public void teleopPeriodic() {
+    	double rightAxisValue = gamePad.getRawAxis(CustomJoystick.RIGHT_Stick_Y);
+    	double leftAxisValue = gamePad.getRawAxis(CustomJoystick.LEFT_Stick_Y);
     	
-    	
-    	double Lx = gamePad.getRawAxis(CustomJoystick.RIGHT_Stick_X);
-    	double Ly = -gamePad.getRawAxis(CustomJoystick.RIGHT_Stick_Y);
-    	driverStation.reportError("Lx: " + Lx + "\n Ly: " + Ly + "\n", false);
-    	double mag = Math.sqrt((Lx * Lx) + (Ly * Ly));
-    	
-    	double dir = Math.atan2(Ly, Lx);
-    	dir *= (180/Math.PI);
-    	driverStation.reportError("ArcTan2: " + dir + "\n", false);
-    	
-    	driveTrain.mecanmDrive(gamePad.getMagnitude(), gamePad.getDirectionDegrees(), gamePad.getRawAxis(CustomJoystick.RIGHT_Stick_X) ); //mag, dir, rot
-    }
-    
+    	actuators.frontLeft.set(-leftAxisValue);
+    	actuators.rearLeft.set(-leftAxisValue);
+    	actuators.frontRight.set(rightAxisValue);
+    	actuators.rearRight.set(rightAxisValue);
+    } 
     /**
      * This function is called periodically during test mode
      */
